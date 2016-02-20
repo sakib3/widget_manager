@@ -1,4 +1,4 @@
-﻿.cd-title-bar {
+.cd-title-bar {
     background-color: white;
     padding: 0 20px;
     border-bottom: 2px solid black;
@@ -25,4 +25,12 @@
 .cd-logo-subtitle {
     font-size: 13px;
     margin-top: -13px;
+}
+
+.cd-right-side-controls{
+    line-height: 60px;
+}
+
+.cd-right-side-controls > div{
+    text-align: right;
 }
