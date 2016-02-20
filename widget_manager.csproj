@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.css" />
     <Content Include="app\appModule.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -65,13 +66,16 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="ext-modules\cdDashboard\cdDashboardModule.js" />
+    <Content Include="ext-modules\cdFramework\cdFramework.css" />
     <Content Include="ext-modules\cdFramework\cdFrameworkController.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkDirective.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkModule.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkTemplate.html" />
     <Content Include="ext-modules\cdMenu\cdMenuModule.js" />
+    <Content Include="fonts\font.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\hiking.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
