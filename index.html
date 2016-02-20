@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html ng-app="app"xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Widget Manager</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
@@ -11,10 +11,13 @@
     <script src="ext-modules/cdMenu/cdMenuModule.js"></script>
     <script src="ext-modules/cdDashboard/cdDashboardModule.js"></script>
     <script src="ext-modules/cdFramework/cdFrameworkModule.js"></script>
+    <script src="ext-modules/cdFramework/cdFrameworkController.js"></script>
+    <script src="ext-modules/cdFramework/cdFrameworkDirective.js"></script>
     <script src="app/appModule.js"></script>
 </head>
 
-<body>
-
+<body class="container-fluid">
+    <!-- load cd-frameWork directive -->
+    <cd-frameWork></cd-frameWork>
 </body>
 </html>
