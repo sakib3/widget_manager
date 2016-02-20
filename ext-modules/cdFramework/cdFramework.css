@@ -3,8 +3,12 @@
     padding: 0 20px;
     border-bottom: 2px solid black;
 }
+.cd-logo-area{
+    text-align: center;
+}
 .cd-title-area {
     display: inline-block;
+    text-align: center;
 }
 
 .cd-icon {
@@ -32,5 +36,16 @@
 }
 
 .cd-right-side-controls > div{
-    text-align: right;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cd-right-side-controls > div {
+        text-align: right;
+    }
+
+    .cd-logo-area{
+        text-align: left;
+    }
 }
