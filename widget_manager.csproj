@@ -73,7 +73,10 @@
     <Content Include="ext-modules\cdFramework\cdFrameworkDirective.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkModule.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkTemplate.html" />
+    <Content Include="ext-modules\cdMenu\cdMenuController.js" />
+    <Content Include="ext-modules\cdMenu\cdMenuDirective.js" />
     <Content Include="ext-modules\cdMenu\cdMenuModule.js" />
+    <Content Include="ext-modules\cdMenu\cdMenuTemplate.html" />
     <Content Include="fonts\font.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
