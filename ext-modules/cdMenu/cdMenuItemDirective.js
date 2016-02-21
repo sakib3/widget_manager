@@ -1,8 +1,8 @@
-﻿/// <reference path="C:\Users\MdSabbirRahman\Desktop\widget_manager\index.html" />
+﻿
 
 "use restrict";
 angular.module("cdMenu")
-       .directive("cdMenuItemDirective", function () {
+       .directive("cdMenuItem", function () {
            return {
                //require has a parent cdMenu
                require: "^cdMenu",
