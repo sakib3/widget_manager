@@ -73,6 +73,7 @@
     <Content Include="ext-modules\cdFramework\cdFrameworkDirective.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkModule.js" />
     <Content Include="ext-modules\cdFramework\cdFrameworkTemplate.html" />
+    <Content Include="ext-modules\cdMenu\cdMenu.css" />
     <Content Include="ext-modules\cdMenu\cdMenuController.js" />
     <Content Include="ext-modules\cdMenu\cdMenuDirective.js" />
     <Content Include="ext-modules\cdMenu\cdMenuItemDirective.js" />
