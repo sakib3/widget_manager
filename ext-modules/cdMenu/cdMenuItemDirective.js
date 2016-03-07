@@ -7,7 +7,8 @@ angular.module("cdMenu")
                //require has a parent cdMenu
                require: "^cdMenu",
                scope: {
-                   label: '@'
+                   label: '@',
+                   icon: '@'
                },
                templateUrl: "ext-modules/cdMenu/cdMenuItemTemplate.html",
                link: function (scope, el, attr,ctrl) {

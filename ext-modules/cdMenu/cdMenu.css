@@ -1,0 +1,54 @@
+﻿.cd-menu-area{
+    position:relative;
+    background-color: #333;
+    color: #ccc;
+    padding-left: 0;
+    width: 200px;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+.cd-menu-area ul{
+    padding-left: 0;
+}
+
+.cd-menu-area .btn:hover{
+    color: #ccc;
+}
+
+.cd-menu{
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.cd-menu ul{
+    display:inline;
+    list-style-type: none;
+}
+
+.cd-menu li{
+    line-height: 3em;
+    cursor: pointer;
+}
+
+.cd-menu li div{
+    display: inline-block;
+    width: 90%;
+    padding-left: 16px;
+}
+
+.cd-selectable-item:hover{
+    background-color: #555;
+}
+
+.cd-noselect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cd-menu-icon{
+    margin-right: 10px;
+}
