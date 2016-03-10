@@ -5,6 +5,10 @@ angular.module('cdMenu')
        .controller('cdMenuController',
             ['$scope','$rootScope',
                 function ($scope, $rootScope) {
+
+                    this.getActiveElement = function () {
+                        return $scope.activeElement;
+                    }
                     //set the active item
                     this.setActiveElement = function (el) {
                         $scope.activeElement = el;

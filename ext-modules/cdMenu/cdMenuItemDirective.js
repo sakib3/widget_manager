@@ -12,7 +12,11 @@ angular.module("cdMenu")
                    route: '@'
                },
                templateUrl: "ext-modules/cdMenu/cdMenuItemTemplate.html",
-               link: function (scope, el, attr,ctrl) {
+               link: function (scope, el, attr, ctrl) {
+
+                   scope.isActive = function () {
+                       return el === ctrl.getActiveElement();
+                   };
                    el.on('click', function (evt) {
 
                        //exclusive access of the element
