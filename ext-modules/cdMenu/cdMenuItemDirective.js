@@ -17,8 +17,7 @@ angular.module("cdMenu")
                    scope.isActive = function () {
                        return el === ctrl.getActiveElement();
                    };
-                   console.log('directive');
-                   console.log(scope);
+                   
                    el.on('click', function (evt) {
 
                        //exclusive access of the element
