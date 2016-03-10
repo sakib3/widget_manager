@@ -31,6 +31,15 @@
     margin-top: -13px;
 }
 
+@media screen and (max-width :430px) {
+    .cd-icon{
+        display: none;
+    }
+    .cd-logo-title{
+        font-size: 18px;
+    }
+}
+
 .cd-right-side-controls{
     line-height: 60px;
 }
@@ -48,4 +57,20 @@
     .cd-logo-area{
         text-align: left;
     }
+}
+
+.cd-collapsed-menu{
+    display: inline-block;
+    height: 100%;
+}
+
+.cd-nav-button{
+    height: 40px;
+    width: 60px;
+    margin-top: 10px;
+    border: 1px solid #888;
+    padding: 0;
+    font-size: 26px;
+    color: #777;
+
 }

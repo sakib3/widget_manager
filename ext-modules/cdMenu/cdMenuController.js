@@ -6,6 +6,8 @@ angular.module('cdMenu')
             ['$scope','$rootScope',
                 function ($scope, $rootScope) {
 
+                    
+                    
                     this.getActiveElement = function () {
                         return $scope.activeElement;
                     }
