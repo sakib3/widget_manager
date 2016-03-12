@@ -7,7 +7,7 @@ angular.module('cdMenu')
                 function ($scope, $rootScope) {
 
                     
-                    
+                    $scope.showMenu = true;
                     this.getActiveElement = function () {
                         return $scope.activeElement;
                     }
@@ -20,5 +20,11 @@ angular.module('cdMenu')
                         $rootScope.$broadcast('cd-menu-item-selected-event',
                             { route: route });
                     };
+
+                    //listen to 'cd-menu-item-selected-event' event
+                    $scope.$on('cd-menu-show', function (evt, data) {
+                        $scope.showMenu = data.show;
+                        console.log($scope.showMenu);
+                    });
                 }
             ]);
